@@ -1,0 +1,32 @@
+#topimg {
+  width: 100%;
+}
+
+.image {
+   position: relative;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  font-size: 200px;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+body {
+  background-color: #f7f6af;
+}
+
+.sidebar {
+  float: right;
+  margin-left: 50px;
+}
