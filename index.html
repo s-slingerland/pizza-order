@@ -28,41 +28,48 @@
         <br>
         <p>Open 3pm - midnight everyday</p>
       </div>
-      <div class="form-group">
-        <div class="row">
-          <label for="size">First, choose which size of pizza you would like</label>
-          <select class= "form-control" id="size">
-            <option value="small">Small (10'')</option>
-            <option value="medium">Medium (12'')</option>
-            <option value="large">Large (14'')</option>
-          </select>
+      <form id="pizzaform">
+        <div class="form-group">
+          <div class="row">
+            <label for="size">First, choose which size of pizza you would like</label>
+            <select class= "form-control" id="size">
+              <option value="small">Small (10'')</option>
+              <option value="medium">Medium (12'')</option>
+              <option value="large">Large (14'')</option>
+            </select>
+          </div>
+          <br>
+          <br>
+          <div class="row">
+            <label>Now, select  which toppings you would like. (Each topping will add 1 dollar to the price)<br>
+              <input type="checkbox" name="topping" value="sausage">
+              Sausage
+            </lable>
+          </div>
+          <div class="row">
+            <label>
+              <input type="checkbox" name="topping" value="pepperoni">
+              Pepperoni
+            </lable>
+          </div>
+          <div class="row">
+            <label>
+              <input type="checkbox" name="topping" value="mushrooms">
+              Mushrooms
+            </lable>
+          </div>
+          <div class="row">
+            <label>
+              <input type="checkbox" name="topping" value="spinach">
+              Spinach
+            </lable>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-warning">Place my order!</button>
         </div>
-        <br>
-        <br>
-        <div class="row">
-          <label>Now, select  which toppings you would like. (Each topping will add 1 dollar to the price)<br>
-            <input type="checkbox" name="topping" value="sausage">
-            Sausage
-          </lable>
-        </div>
-        <div class="row">
-          <label>
-            <input type="checkbox" name="topping" value="pepperoni">
-            Pepperoni
-          </lable>
-        </div>
-        <div class="row">
-          <label>
-            <input type="checkbox" name="topping" value="mushrooms">
-            Mushrooms
-          </lable>
-        </div>
-        <div class="row">
-          <label>
-            <input type="checkbox" name="topping" value="spinach">
-            Spinach
-          </lable>
-        </div>
+      </form>
+      <div class="results">
+        <p>Your pizza will be ready shortly and cost you only<span class="finalPrice"></span>!</p>
       </div>
     </div>
   </body>

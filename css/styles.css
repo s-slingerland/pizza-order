@@ -30,3 +30,7 @@ body {
   float: right;
   margin-left: 50px;
 }
+
+.results {
+  display: none;
+}
